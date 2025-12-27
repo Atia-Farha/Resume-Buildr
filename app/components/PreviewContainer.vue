@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <ResumeContainer />
+        <ResumeContainer/>
     </div>
 </template>
 

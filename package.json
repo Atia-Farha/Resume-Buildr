@@ -11,8 +11,6 @@
 	},
 	"dependencies": {
 		"@nuxt/eslint": "^1.10.0",
-		"@nuxt/hints": "^1.0.0-alpha.1",
-		"@nuxt/image": "^2.0.0",
 		"@pinia/nuxt": "^0.11.3",
 		"eslint": "^9.39.1",
 		"html2pdf.js": "^0.12.1",

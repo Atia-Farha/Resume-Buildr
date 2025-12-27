@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import {ref, onMounted} from 'vue'
 
 const props = defineProps({
     title: {
@@ -32,7 +32,7 @@ function toggleAccordion() {
         </div>
 
         <div class="accordion-content">
-            <slot />
+            <slot/>
         </div>
     </div>
 </template>

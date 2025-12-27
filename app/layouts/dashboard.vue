@@ -1,12 +1,12 @@
 <template>
     <div class="container">
-        <HeaderContainer />
+        <HeaderContainer/>
 
         <main>
-            <slot />
+            <slot/>
         </main>
 
-        <FooterContainer />
+        <FooterContainer/>
     </div>
 </template>
 

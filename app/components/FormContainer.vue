@@ -73,7 +73,7 @@ async function generatePDF() {
             format: 'a4',
             orientation: 'portrait'
         },
-        pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+        pagebreak: {mode: ['avoid-all', 'css', 'legacy']}
     };
 
     try {

@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import {ref} from 'vue'
 
 const activeTab = ref(0)
 </script>
@@ -20,11 +20,11 @@ const activeTab = ref(0)
 
             <div class="tab-content">
                 <div v-if="activeTab === 0">
-                    <FormContainer />
+                    <FormContainer/>
                 </div>
 
                 <div v-if="activeTab === 1">
-                    <PreviewContainer />
+                    <PreviewContainer/>
                 </div>
             </div>
         </div>
